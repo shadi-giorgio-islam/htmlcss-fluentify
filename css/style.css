@@ -151,18 +151,31 @@ header{
   background-repeat: no-repeat;
 }
 .piano{
-  height: 500px;
   width: 100%;
 }
 .inner-piano{
-  width: calc(100% / 3)
+  width: calc(100% / 2);
 }
 .inner-piano-img{
   background-image: url('../img/mountain.svg');
   width: 100%;
-  height: 100%;
+  height: 500px;
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
+}
+.inner-piano-text p{
+  color: grey;
+  margin-top: 15px;
+}
+.link{
+  padding-top: 20px;
+}
+#spec{
+  text-decoration: underline;
+  color: rgb(39, 94, 201);
+  font-size: 15px;
+  text-transform: none;
 }
 footer{
   height: 150px;
