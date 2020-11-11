@@ -7,52 +7,73 @@
   width: 80%;
   /* da cancellare */
   height: 100%;
-  background-color: white;
   /* /da cancellare */
   margin: auto;
 }
 .float-left{
   float: left;
 }
-.float-right{
-  float: right;
-}
 .clearfix::after{
   content: '';
   display: table;
   clear: both;
 }
-
+ul{
+  list-style: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 header{
-  /* da cancellare */
   height: 550px;
   background-color: #0d325a;
-  /* /da cancellare */
+  background-image: url('../img/background-header.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
 }
 .header-nav{
   height: 80px;
   line-height: 80px;
 }
+.header-nav li{
+  display: inline-block;
+  padding: 0 10px;
+}
 .header-logo{
   height: 100%;
   width: 20%;
-  background-color: lightblue;
+  position: relative;
+}
+.header-logo img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 .header-nav-center{
   height: 100%;
   width: 50%;
-  background-color: green;
 }
 .header-nav-right{
   height: 100%;
   width: 30%;
-  background-color: violet;
+  text-align: right;
 }
-
 .jumbotron{
   height: 470px;
-  background-color: pink;
   position: relative;
+}
+.jumbotron-title{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY('-50%');
+}
+.jumbotron-title h1{
+  color: white;
 }
 
 main{
