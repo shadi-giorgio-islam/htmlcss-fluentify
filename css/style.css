@@ -3,3 +3,65 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container{
+  width: 80%;
+  /* da cancellare */
+  height: 100%;
+  background-color: white;
+  /* /da cancellare */
+  margin: auto;
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+header{
+  /* da cancellare */
+  height: 550px;
+  background-color: #0d325a;
+  /* /da cancellare */
+}
+.header-nav{
+  height: 80px;
+  line-height: 80px;
+}
+.header-logo{
+  height: 100%;
+  width: 20%;
+  background-color: lightblue;
+}
+.header-nav-center{
+  height: 100%;
+  width: 50%;
+  background-color: green;
+}
+.header-nav-right{
+  height: 100%;
+  width: 30%;
+  background-color: violet;
+}
+
+.jumbotron{
+  height: 470px;
+  background-color: pink;
+  position: relative;
+}
+
+main{
+  /* da cancellare */
+  height: 700px;
+  background-color: lightgrey;
+  /* /da cancellare */
+}
+footer{
+  height: 150px;
+  background-color: blue;
+}
