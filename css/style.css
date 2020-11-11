@@ -179,5 +179,43 @@ header{
 }
 footer{
   height: 150px;
-  background-color: blue;
+  background-color: lightgrey;
+  line-height: 150px;
+  color: grey;
+}
+.inner-footer{
+  width: 50%;
+  height: 100%;
+}
+.inner-footer-title{
+  width: 100%;
+  height: 100%;
+}
+.inner-footer-title h2{
+  color: black;
+}
+.inner-footer-text{
+  width: 25%;
+}
+.form{
+  display: inline-block;
+}
+.form select{
+  border: none;
+  background-color: lightgrey;
+  color: grey;
+  font-size: 20px;
+}
+.form select option{
+  font-size: 20px;
+}
+.inner-footer-btn{
+  width: 25%;
+  height: 100%;
+}
+.inner-footer-btn ul{
+  text-align: center;
+}
+.inner-footer-btn li{
+  height: 50px;
 }
