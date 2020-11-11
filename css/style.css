@@ -3,11 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
 .container{
   width: 80%;
-  /* da cancellare */
-  height: 100%;
-  /* /da cancellare */
   margin: auto;
 }
 .float-left{
@@ -26,6 +26,30 @@ a{
   text-decoration: none;
   text-transform: uppercase;
 }
+p{
+  line-height: 1.6;
+}
+hr{
+  color: grey;
+  margin: 25px auto;
+}
+.btn{
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+}
+.green{
+  background-color: #7cbb02;
+}
+.blue{
+  border: 1px solid white;
+  padding: 5px 20px;
+}
+.large{
+  padding: 20px;
+}
 header{
   height: 550px;
   background-color: #0d325a;
@@ -40,7 +64,8 @@ header{
 }
 .header-nav li{
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 15px;
+  font-size: 12px;
 }
 .header-logo{
   height: 100%;
@@ -70,17 +95,74 @@ header{
   position: absolute;
   left: 0;
   top: 50%;
-  transform: translateY('-50%');
+  transform: translateY(-50%);
 }
 .jumbotron-title h1{
   color: white;
+  font-size: 40px;
 }
-
-main{
-  /* da cancellare */
-  height: 700px;
+.jumbotron-title .button{
+  margin-top: 40px;
+}
+.language{
+  text-align: center;
+  padding: 30px;
   background-color: lightgrey;
-  /* /da cancellare */
+}
+.language p{
+  color: grey;
+  padding-top: 10px;
+}
+.tutor{
+  background-color: white;
+}
+.inner-tutor{
+  width: calc(100% / 3 - 40px);
+  text-align: center;
+  margin: 20px;
+}
+.inner-tutor h2{
+  color: #7cbb02;
+}
+.inner-tutor hr{
+  width: 20%;
+}
+.inner-tutor p{
+  color: grey;
+}
+.profile{
+  background-image: url('../img/profile.svg');
+  background-size: 50%;
+  background-position: 50% 50%;
+}
+.computer{
+  background-image: url('../img/computer.svg');
+  background-size: 60%;
+  background-position: 50% 50%;
+}
+.doc{
+  background-image: url('../img/doc.svg');
+  background-size: 50%;
+  background-position: 30% 50%;
+}
+.inner-tutor-img{
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+.piano{
+  height: 500px;
+  width: 100%;
+}
+.inner-piano{
+  width: calc(100% / 3)
+}
+.inner-piano-img{
+  background-image: url('../img/mountain.svg');
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 footer{
   height: 150px;
